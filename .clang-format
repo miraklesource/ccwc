@@ -21,3 +21,7 @@ AllowShortFunctionsOnASingleLine: Empty
 AllowShortIfStatementsOnASingleLine: false
 # char* instead of char *
 PointerAlignment: Left
+
+# Nice formatting for struct initialization
+BreakConstructorInitializersStyle: BeforeComma
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
